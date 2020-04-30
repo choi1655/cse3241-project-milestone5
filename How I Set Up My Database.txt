@@ -1,0 +1,11 @@
+For setting up my SQL Database on a SQL server using Microsoft SQL Server Management Studio I ran these scripts in this order:
+
+1. CreateDatabase.sql
+2. SetSchema.sql
+3. SetupTables.sql (asks to make a report)
+4. Constraints.sql
+5. SetupCurrentState.sql
+
+Note: some of the prices and values provided via inserts are a little off I think. We entered from a table while changing some stuff without enough thought I think.
+
+We were pretty stumped by the Artefacts I think, we weren't really sure how to go about gathering input to make certain reports like the Bill of Materials or Branch Inventories, so we just have some hardcoded selects, which is probably not what was expected. Also we were running low on time in the end, sorry about that.
